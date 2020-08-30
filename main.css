@@ -1,0 +1,147 @@
+body   {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+nav{
+    overflow: hidden;
+    position: fixed;
+    margin: 0 0 0 200px;
+    background-color: rgba(169,169,169, 0.7);
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+}
+nav li{
+    display: inline-block;
+    padding: 0.5em;
+    padding-top: 0;
+}
+.floatingMenu{
+    text-decoration: none;
+    list-style: none;
+    float: center;
+    text-align: left;
+    color: white;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+.floatingMenu:hover{
+    color: black;
+}
+footer{
+    background-color: grey;
+    color: white;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.titleImage{
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1511795267602-0424436b99c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+    
+    background-color: rgba(169,169,169, 0.4);
+    background-size: cover;
+}
+h1{
+    margin: 0.4em;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.07em;
+    font-weight: 50;
+    color: white;
+    text-align: center;
+    font-size: 150px;
+    
+}
+h2{
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.08em;
+}
+h3{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+h4{
+    font-family: Helvetica, sans-serif;
+}
+.billboard{
+    position: absolute;
+    padding-left: 25vw;
+    width: 72vw;
+    height: 20em;
+    margin-top: -15em;
+    object-fit: cover;
+}
+.productSection{
+    position: relative;
+    display: inline-block;
+    width: 24vw;
+    padding: 3vw;
+}
+.exploreSection{
+    margin: 0;
+    padding-bottom: 5em;
+    max-width: 100%;
+    height: 20em;
+}
+.exploreButton{
+    background: none;
+    border: none;
+    position: absolute;
+    margin-top: -2.5em;
+    margin-left: 60vw;
+    padding-right: 4em;
+    font-family: Helvetica, sans-serif;
+	letter-spacing: 0.07em;
+	font-weight: 100;
+    font-size: 50px;
+    text-shadow: 1px 2px grey;
+	text-align: center;
+	color: ivory;
+    cursor: pointer;
+    max-width: 100px; 
+    width: 100%; 
+    outline: 3px solid;
+    outline-color: rgba(169, 169, 169,0.7);
+    outline-offset: 10px;
+    transition: all 600ms cubic-bezier(0.1, 0, 0, 0.8);
+}
+.exploreButton:hover{
+    color: rgba(169, 169, 169);
+    outline-color: rgba(169, 169, 169, 0);
+    outline-offset: 50px;
+}
+.supportRequest{
+    padding-top: 50px;
+    position: relative;
+    margin-left: 70vw;
+    width: auto;
+}
+.socialCopyright{
+    margin: 0;
+    padding-left: 40vw;
+    text-align: right;
+    float: left;
+}
+#logo{
+    height: 200px;
+    width: 200px;
+    margin: 0;
+    position: relative;
+    background-color: rgba(169,169,169, 0.7);
+}
+#copyright{
+    position: absolute;
+    padding-top: 500px;
+}
